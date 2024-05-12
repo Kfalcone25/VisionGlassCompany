@@ -1,0 +1,17 @@
+.carousel {
+  margin: 2rem auto;
+  max-width: 50vw;
+  background-color: #fdfdfd;
+  padding: 2em;
+  background: #5bc0eb;
+  border-radius: 10px;
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0);
+}
+
+.slick-arrow-prev::before,
+.slick-arrow-next::before {
+  color: #0056b3 !important; /* This changes the color of the arrows */
+}

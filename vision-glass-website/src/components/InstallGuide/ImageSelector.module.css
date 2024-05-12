@@ -1,0 +1,30 @@
+.galleryContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+}
+
+.mainImage {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.thumbnailContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.thumbnail {
+  width: 50px;
+  height: auto;
+  margin: 0 5px;
+  cursor: pointer;
+  border: none;
+}
+
+.thumbnailActive {
+  border: 2px solid #5bc0eb;
+}
