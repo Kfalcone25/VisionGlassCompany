@@ -1,5 +1,6 @@
 import React from "react";
 import "./Footer.css";
+import { Link } from "react-router-dom";
 type Props = {};
 
 const Footer = (props: Props) => {
@@ -43,7 +44,9 @@ const Footer = (props: Props) => {
                 <i className="fab fa-linkedin-in"></i>
               </a>
             </div>
-            <button className="btn btn-primary">REQUEST A QUOTE</button>
+            <Link to={"/contact"}>
+              <button className="btn btn-primary">REQUEST A QUOTE</button>
+            </Link>
           </div>
         </div>
         <div className="partners">

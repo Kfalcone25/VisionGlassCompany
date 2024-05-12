@@ -5,6 +5,8 @@ import ResidentialPage from "./pages/ResidentialPage/ResidentialPage.tsx";
 import Layout from "./pages/Layout/Layout.tsx";
 import CommercialPage from "./pages/CommercialPage/CommercialPage.tsx";
 import Gallery from "./pages/GalleryPage/GalleryPage.tsx";
+import AboutPage from "./pages/AboutPage/AboutPage.tsx";
+import ContactPage from "./pages/ContactPage/ContactPage.tsx";
 
 function App() {
   return (
@@ -14,6 +16,8 @@ function App() {
         <Route path="/residential" element={<ResidentialPage />} />
         <Route path="/commercial" element={<CommercialPage />} />
         <Route path="/gallery" element={<Gallery />} />
+        <Route path="/about" element={<AboutPage />} />
+        <Route path="/contact" element={<ContactPage />} />
       </Routes>
     </Layout>
   );

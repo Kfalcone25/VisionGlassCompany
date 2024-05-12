@@ -8,15 +8,14 @@ interface Props {
 const MiniHero = ({ title, imageUrl }: Props) => {
   const style = {
     backgroundImage: `url(${imageUrl})`,
-    height: "500px", // Define a height for the element
+    height: "300px", // Define a height for the element
     width: "100%", // Make it full width
     backgroundSize: "contain", // Cover the entire area of the element
     backgroundPosition: "center", // Center the background image
-    
   };
   return (
     <div className="mini-hero" style={style}>
-      <div className="overlay">
+      <div className="mini-overlay">
         <h1>{title}</h1>
       </div>
     </div>

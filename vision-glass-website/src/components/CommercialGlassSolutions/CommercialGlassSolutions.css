@@ -1,5 +1,6 @@
 .commercial-glass-solutions {
-  padding: 40px;
+  padding-left: 20em;
+  padding-right: 20em;
   background-color: #ffffff;
 }
 
@@ -19,6 +20,8 @@
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   grid-gap: 30px;
+  height: 50vh;
+  
 }
 
 .card {

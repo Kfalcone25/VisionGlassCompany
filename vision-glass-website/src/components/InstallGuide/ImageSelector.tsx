@@ -1,8 +1,9 @@
 import React, { useState } from "react";
 import styles from "./ImageSelector.module.css";
+import assets from "../../assets/images/NavyFederal.jpg";
 
 const placeholderImages = [
-  "https://via.placeholder.com/400x300.png?text=Consultation+Phase",
+  assets,
   "https://via.placeholder.com/400x300.png?text=Measurement+and+Design",
   "https://via.placeholder.com/400x300.png?text=Fabrication",
   "https://via.placeholder.com/400x300.png?text=Installation",

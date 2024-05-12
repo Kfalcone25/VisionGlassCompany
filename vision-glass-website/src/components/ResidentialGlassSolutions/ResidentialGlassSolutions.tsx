@@ -7,27 +7,27 @@ const ResidentialGlassSolutions = () => {
   const services = [
     {
       id: 1,
-      title: "Shower Doors, Hardware & Closets",
+      title: "Shower Doors",
       image: image1,
     },
     {
       id: 2,
-      title: "Custom Glass Fabrication",
+      title: "Window Repair",
       image: image1,
     },
     {
       id: 3,
-      title: "Glass Storefront Systems",
+      title: "Mirrors",
       image: image1,
     },
     {
       id: 4,
-      title: "Service 4",
+      title: "Table Tops",
       image: image1,
     },
     {
       id: 5,
-      title: "Service 5",
+      title: "Custom Glass",
       image: image1,
     },
   ];
@@ -46,7 +46,7 @@ const ResidentialGlassSolutions = () => {
 
   return (
     <section className="glass-aluminum-services">
-      <h2>End-to-End Glass & Aluminum Services</h2>
+      <h2>End-to-End Residential Services</h2>
       <div className="services-container">
         <button className="arrow arrow-left" onClick={handlePrev}>
           &lt;
